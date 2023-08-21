@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>Reserva de viagem ✈️</h2>
+        <fieldset>
+            <legend>Dados 🪪</legend>
+            <form method="get "action="">
+    
+                <label>Nome</label><br>
+                 <input type="text" name=""><br><br>
+       
+               <label>E-mail</label><BR>
+                 <input type="email"E-MAIL=""><br><br>
+         </fieldset>
+         
+        <fieldset>
+         <legend>Serviços desejados</legend><br>
+    
+          <label>
+            <input type="checkbox" name="compra de passagens" value="passagens">Compra de passagens
+        </label>
+          <label>
+            <input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem 
+        </label>
+          <label>
+           <input type="checkbox" name="aluguel de veiculos" value="aluguel"> Aluguel de veiculos 
+        </label>
+        </fieldset><br>
+      
+        <fieldset>
+            <legend> Formas de pagamento</legend><br>
+            <label>
+                <br><input type="radio" name="formaPagamento" value="Cartão de credito"> Cartão de credito
+                <br><input type="radio" name="formaPagamento" value="Pix"> Pix
+                <br><input type="radio" name="formaPagamento" value="boleto bancario"> Boleto Bancario 
+            </label>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Prazo de pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="a vista">À vista(Com Desconto)</option>
+                <option value="5x">5x sem juros </option>
+                <option value="10x">10 sem juros</option>
+            </select>
+        </fieldset> <br>
+        
+        <fieldset>
+            <legend>Comentario</legend> <br>
+          <textarea rows="5" name="Comentario"></textarea><br>
+        </fieldset>
+        <button>Enviar</button>
+    </form>
+    </section>
+</body>
+</html>
